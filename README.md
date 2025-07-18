@@ -2,7 +2,7 @@
 
 A sleek Streamlit chatbot interface powered by the DeepSeek R1 model, integrated via OpenRouter and LangChain. Designed for simple, elegant interactions with AI.
 
-![App Screenshot](https://img.shields.io/badge/Built%20with-Streamlit-%23FF4B4B?logo=streamlit&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-Enabled-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![App Screenshot](image.png) ![LangChain](https://img.shields.io/badge/LangChain-Enabled-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
