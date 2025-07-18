@@ -59,9 +59,9 @@ st.markdown("""
 # }
 
 model = ChatOpenAI(
-    openai_api_key="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",  # Replace with your own key
+   openai_api_key="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",  # Replace with your own key
     openai_api_base="https://openrouter.ai/api/v1",
-    model_name="deepseek/deepseek-r1-0528-qwen3-8b:free"
+    model_name="mistralai/mistral-small-3.2-24b-instruct:free",
 )
 
 # ---------- Title ----------
