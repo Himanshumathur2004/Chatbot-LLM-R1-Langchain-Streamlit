@@ -59,7 +59,7 @@ st.markdown("""
 # }
 
 model = ChatOpenAI(
-    openai_api_key="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",  # Replace with your own key
+    openai_api_key="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",  # Replace with your own key
     openai_api_base="https://openrouter.ai/api/v1",
     model_name="deepseek/deepseek-r1-0528-qwen3-8b:free"
 )
