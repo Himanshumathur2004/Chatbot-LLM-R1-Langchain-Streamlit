@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "detail_level",
+        "output_length",
+        "paper_name"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Asuume you are an expert research assistant,\n\n    **Research Paper:** \"{paper_name}\"\n    Generate an explanation based on the following user-selected parameters:\n    1.  **Detail Level:** `{detail_level}`\n    \n        If **Detail Level** is \"Simple\": Focus only on the core idea and the main outcome. Use an analogy if possible. Avoid all technical jargon.\n        If **Detail Level** is \"Mid-level\": Explain the problem being solved, the core methodology, and the key results. You can include some essential technical terms but explain them briefly.\n        If **Detail Level** is \"Detailed\": Provide a structured breakdown covering the background, methodology, experiments, results, and limitations of the paper.\n\nPlease generate the explanation now.\n    2.  **Output Length:** `{output_length}`\n    \n        If **Output Length** is \"Small\": The entire explanation should be a single, concise paragraph (approx. 100-150 words).\n        If **Output Length** is \"Medium\": The explanation should be a few paragraphs (approx. 250-350 words).   \n        If **Output Length** is \"Large\": The explanation should be comprehensive and well-structured with sections (approx. 500+ words).\n\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
