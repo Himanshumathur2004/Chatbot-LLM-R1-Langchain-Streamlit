@@ -65,7 +65,7 @@ model = ChatOpenAI(
 )
 
 # ---------- Title ----------
-st.markdown("<div class='title'>Deepseek R1 Model Chatbot</div>", unsafe_allow_html=True)
+st.markdown("<div class='title'>R1 Model</div>", unsafe_allow_html=True)
 st.markdown("""
     <style>
         .creator {
